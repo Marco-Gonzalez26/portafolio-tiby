@@ -1,0 +1,29 @@
+---
+import Section from "./section.astro";
+import Timeline from "./timeline.astro";
+
+---
+
+<main class="flex flex-col justify-between items-start w-full  md:py-24 ">
+
+  {/*TODO: SEPARATE IN COMPONENTS */}
+    <Section classNames="h-screen w-full max-h-56 mb-12" id="sobre-mi">
+      <>
+      <p class="text-gray-300 font-semibold text-lg leading-normal mb-8">
+
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro praesentium alias eum ut delectus sint dolorum doloremque unde, provident placeat iste facere quae atque minus animi earum magni, sed iusto!
+
+      </p>
+      <p class="text-gray-300 font-semibold text-lg leading-normal mb-8">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem nam ad rerum optio impedit sint natus recusandae soluta, laborum, repellat sed! In libero harum odio nesciunt asperiores nobis deserunt consequatur.
+      </p>
+      </>
+    </Section>
+    <Section id="experiencia">
+      <Timeline/>
+    </Section>
+    <Section id="reseñas">
+      <div>Reseñas</div>
+    </Section>
+
+</main>

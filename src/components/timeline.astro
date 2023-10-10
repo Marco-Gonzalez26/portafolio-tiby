@@ -1,0 +1,19 @@
+---
+import TimelineItem from "./timeline-item.astro";
+
+import { timelineData } from "../lib/data"
+
+
+---
+<>
+<ol class=" border-l border-gray-200 relative ">                  
+  {timelineData.slice(0,3).map((item) => {
+    return (
+      <TimelineItem time={item.time} title={item.title} actual={item.actual} description={item.description}/>
+    )
+  })}
+
+</ol>
+
+<a href="/experiencia" class="underline text-lg font-semibold cursor-pointer text-gray-300 hover:text-white transition-all flex items-center">Toda mi experiencia laboral </a>
+</>

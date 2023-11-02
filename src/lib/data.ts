@@ -6,6 +6,13 @@ export type TimeLineItem = {
   time: string
 }
 
+export type Review = {
+  author: string
+  rate: number
+  review: string
+  charge: string
+}
+
 export const timelineData: TimeLineItem[] = [
   {
     time: '2022',
@@ -28,7 +35,7 @@ export const timelineData: TimeLineItem[] = [
     title:
       'Secretaria personal de consultorio médico en el ámbito de Cardiología',
     description:
-      'Se administro de manera eficáz a pacientes de distintos grupos de edad, así como se programarón citas médicas siempre velando por la comodidad del paciente'
+      'Se administro de manera eficáz a pacientes de distintos grupos de edad, así como se programaron citas médicas siempre velando por la comodidad del paciente'
   },
   {
     time: '2005 - 2007',
@@ -49,5 +56,22 @@ export const timelineData: TimeLineItem[] = [
     title: 'Pasantias',
     description:
       'Se participó en las áreas de ventas, atención al cliente, asesoría y ensamblaje de equipos de computación'
+  }
+]
+
+export const reviewsData: Review[] = [
+  {
+    author: 'Edré Narvaéz',
+    rate: 5,
+    review:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro praesentium alias eum ut delectus sint dolorum doloremque unde, provident placeat iste facere quae atque minus animi earum magni, sed iusto!',
+    charge: 'Presidente de RDL'
+  },
+  {
+    author: 'Ricardo González',
+    rate: 5,
+    review:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro praesentium alias eum ut delectus sint dolorum doloremque unde, provident placeat iste facere quae atque minus animi earum magni, sed iusto!',
+    charge: 'Médico Cardiólogo'
   }
 ]

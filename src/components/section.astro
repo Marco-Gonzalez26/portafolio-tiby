@@ -1,12 +1,15 @@
 ---
+import { cn } from '../lib/utils'
 type Props =  {
   id: string
   classNames?: string
+  title?: string
 }
-const {id, classNames = "h-screen w-full  mb-12 max-h-screen "} = Astro.props
+const {id, title, classNames } = Astro.props
 ---
 
 
-<section id={id} class={classNames}>
+<section id={id} class={cn(classNames, "w-full relative mb-4 md:mb-6 max-h-screen scroll-mt-12")}>
+  <h2 class="text-lg font-extrabold uppercase tracking-widest text-gray-50 lg:sr-only mb-4 md:hidden ">{title}</h2>
   <slot />
 </section>

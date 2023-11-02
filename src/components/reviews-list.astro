@@ -1,0 +1,12 @@
+---
+import { reviewsData, type Review as ReviewType } from "../lib/data";
+import Review from "./review.astro";
+---
+
+<ul class="relative">
+  {reviewsData.map((item:ReviewType) => {
+    return (
+      <Review author={item.author} charge={item.charge} rate={item.rate} review={item.review}/>
+    )
+  })}
+</ul>

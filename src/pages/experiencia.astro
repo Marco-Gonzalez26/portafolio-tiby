@@ -1,12 +1,18 @@
 ---
+import ArrowRight from "../components/icons/arrow-right.astro";
 import TimelineItem from "../components/timeline-item.astro";
 import Layout from "../layouts/Layout.astro";
 import { timelineData } from "../lib/data";
 ---
 <Layout title="Mi experiencia laboral" transition:name="slide" transition:persist>
+  <>
   <ol class=" border-l border-gray-200 mt-12 relative ">  
+    <a class="w-full flex items-center justify-start border-l-8  border-indigo-950" href="/#experiencia"> 
+     <ArrowRight class="rotate-180"/>
+   </a> 
     {timelineData.map((item) => {
       return (      <TimelineItem time={item.time} title={item.title} actual={item.actual} description={item.description}/>)
     })}
   </ol>
+  </>
 </Layout>

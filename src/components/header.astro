@@ -5,13 +5,16 @@ import  Navbar  from "./nav-bar.astro";
 
 ---
 
-<header class=" md:h-screen  md:sticky md:inset-0 flex flex-col items-start  py-12 md:py-24 w-full md:gap-y-24">
-  <div>
-    <h1 class="font-bold text-3xl md:text-5xl text-white leading-5 ">Luisa Tibisay Partidas</h1>
-    <h3 class=" mt-4 font-medium text-2xl md:text-4xl text-gray-100">Asistente Virtual</h3>
-    <p class=" text-gray-300 max-w-sm w-full leading-normal mt-4 font-medium" >Ayudandote a organizar tu negocio desde 2015</p>
+<header class=" md:h-screen  md:sticky md:inset-0 flex flex-col items-start  py-12 md:py-12 w-full md:gap-y-4">
+  <div class="flex flex-col justify-start items-center gap-0 md:flex-row w-full md:items-start md:justify-center">
+    <div>
+      <h1 class="font-bold text-3xl md:text-5xl text-white leading-5 ">Luisa Tibisay Partidas </h1>
+      <h3 class=" mt-4 font-medium text-2xl md:text-4xl text-gray-100">Asistente Virtual</h3>
+      <p class=" text-gray-300 max-w-sm w-full leading-normal mt-4 font-medium" >Ayudandote a organizar tu negocio desde 2015</p>
+    </div>
+    <img src="/me.png" class="md:max-w-[250px] max-w-[200px] object-cover md:mr-6"/>
   </div>
-  {/*Make a navbar component */}
+  
   <Navbar/>
 
   <div class="flex justify-center items-center gap-x-4 text-white mt-5">

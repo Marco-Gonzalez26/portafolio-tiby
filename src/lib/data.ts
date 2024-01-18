@@ -71,7 +71,7 @@ export const reviewsData: Review[] = [
     author: 'Ricardo González',
     rate: 5,
     review:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro praesentium alias eum ut delectus sint dolorum doloremque unde, provident placeat iste facere quae atque minus animi earum magni, sed iusto!',
+      'Tibisay es realmente excepcional. Su habilidad para gestionar tareas utilizando Excel es impresionante y mejora significativamente la eficiencia del consultorio. Además, su atención al paciente es ejemplar; brinda un trato amable y profesional que contribuye a la satisfacción de los pacientes. Su destreza técnica y calidad en el servicio hacen que sea una pieza invaluable en el equipo médico.',
     charge: 'Médico Cardiólogo'
   }
 ]

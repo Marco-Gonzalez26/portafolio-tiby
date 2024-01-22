@@ -64,14 +64,14 @@ export const reviewsData: Review[] = [
     author: 'Edré Narvaéz',
     rate: 5,
     review:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro praesentium alias eum ut delectus sint dolorum doloremque unde, provident placeat iste facere quae atque minus animi earum magni, sed iusto!',
+      'Tibisay Partidas se destacó como una figura integral en la papelería al por mayor. Su versatilidad se refleja en su papel crucial como asistente presidencial, donde demuestra habilidades administrativas excepcionales. Además, su destreza en ventas, tanto al por mayor como al detalle, resalta su capacidad para adaptarse a diversas funciones. Tibisay también se encarga con maestría de la administración del depósito e inventario, mostrando un compromiso sólido con la eficiencia operativa. Su destreza en la facturación, la preparación de pedidos y la atención al cliente, combinada con un manejo experto de Excel, la convierten en un activo indispensable para el éxito del negocio.',
     charge: 'Presidente de RDL'
   },
   {
     author: 'Ricardo González',
     rate: 5,
     review:
-      'Tibisay es realmente excepcional. Su habilidad para gestionar tareas utilizando Excel es impresionante y mejora significativamente la eficiencia del consultorio. Además, su atención al paciente es ejemplar; brinda un trato amable y profesional que contribuye a la satisfacción de los pacientes. Su destreza técnica y calidad en el servicio hacen que sea una pieza invaluable en el equipo médico.',
+      'Tibisay es realmente excepcional. Su habilidad para gestionar tareas utilizando Excel es impresionante la cual mejora significativamente la eficiencia del consultorio. Además, su atención al paciente es ejemplar; brinda un trato amable y profesional que contribuye a la satisfacción de los pacientes. Su destreza técnica y calidad en el servicio hacen que sea una pieza invaluable en el equipo médico.',
     charge: 'Médico Cardiólogo'
   }
 ]

@@ -64,7 +64,7 @@ export const reviewsData: Review[] = [
     author: 'Edré Narvaéz',
     rate: 5,
     review:
-      'Tibisay Partidas se destacó como una figura integral en la papelería al por mayor. Su versatilidad se refleja en su papel crucial como asistente presidencial, donde demuestra habilidades administrativas excepcionales. Además, su destreza en ventas, tanto al por mayor como al detalle, resalta su capacidad para adaptarse a diversas funciones. Tibisay también se encarga con maestría de la administración del depósito e inventario, mostrando un compromiso sólido con la eficiencia operativa. Su destreza en la facturación, la preparación de pedidos y la atención al cliente, combinada con un manejo experto de Excel, la convierten en un activo indispensable para el éxito del negocio.',
+      'Tibisay Partidas se destacó como una figura integral en la papelería al por mayor. Su versatilidad se reflejaba en su papel crucial como asistente presidencial, donde demuestró habilidades administrativas excepcionales. Además, su destreza en ventas, tanto al por mayor como al detalle, resalta su capacidad para adaptarse a diversas funciones. Tibisay también se encargó de la administración del depósito e inventario, mostrando un compromiso sólido con la eficiencia operativa. Su destreza en la facturación, la preparación de pedidos y la atención al cliente, combinada con un manejo experto de Excel, la convierten en un activo indispensable para el éxito del negocio.',
     charge: 'Presidente de RDL'
   },
   {

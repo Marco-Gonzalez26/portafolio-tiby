@@ -19,15 +19,14 @@ export const timelineData: TimeLineItem[] = [
     actual: true,
     title: 'Asistente de Médico en Ecuador',
     description:
-      'Administro con exito y precisión a pacientes, junto con programar de manera eficaz cada cita para darle la mejor experiencia al paciente'
+      'Administro con exito y precisión a pacientes, junto con agendar de manera eficaz cada cita para darle la mejor experiencia al paciente'
   },
   {
     time: '2019 - 2021',
-    title:
-      'Asistente de presidencia y administración de papelería al detal y al mayor',
+    title: 'Asistente de presidencia',
     company: 'RDL',
     description:
-      'Se administró de manera exitosa el inventario y los diferentes pedidos al personas naturales como a mayoristas, junto con una excelente atención al cliente que hacía que los clientes vuelvan a comprar'
+      'Se logró de manera exitosa la administracion de inventario, deposito y pedidos.Atencion al cliente. Manejo de Excel y A2 (Software de facturación)'
   },
   {
     time: '2013 - 2015',

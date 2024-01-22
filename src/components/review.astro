@@ -1,19 +1,21 @@
 ---
 import type { Review } from '../lib/data'
-import Star from './icons/star.astro';
+import Star from './icons/star.astro'
 interface Props extends Review {}
 
-const {author, charge, rate, review} = Astro.props
+const { author, charge, rate, review } = Astro.props
 
 const rateArr = Array(rate).fill(null)
 ---
 
-<li class="mb-10  bg-white/5 shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] transition-all duration-200 rounded p-4 hover:bg-white/10">
-  <div class="flex items-center gap-x-2">
-    <span class="text-lg font-semibold text-gray-200">{author} - </span>      <span class="text-lg font-semibold text-gray-200">{charge}</span> 
+<li
+  class='bg-white/5 shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] transition-all duration-200 rounded p-4 hover:bg-white/10'>
+  <div class='flex gap-2 flex-col justify-center'>
+    <span class='md:text-lg font-semibold text-gray-200'>{author}</span>
+    <span class='md:text-lg font-semibold text-gray-200'>{charge}</span>
   </div>
-  <div class="flex items-center">
-    {rateArr.map(() => <Star/>)}
+  <div class='flex items-center'>
+    {rateArr.map(() => <Star />)}
   </div>
-  <p class="mb-4 text-base font-normal text-gray-300 ">{review}</p>
+  <p class='mb-4 text-sm md:text-base font-normal text-gray-300'>{review}</p>
 </li>

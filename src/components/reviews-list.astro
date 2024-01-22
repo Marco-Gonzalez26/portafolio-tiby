@@ -1,12 +1,19 @@
 ---
-import { reviewsData, type Review as ReviewType } from "../lib/data";
-import Review from "./review.astro";
+import { reviewsData, type Review as ReviewType } from '../lib/data'
+import Review from './review.astro'
 ---
 
-<ul class="relative">
-  {reviewsData.map((item:ReviewType) => {
-    return (
-      <Review author={item.author} charge={item.charge} rate={item.rate} review={item.review}/>
-    )
-  })}
+<ul class='relative flex gap-y-2 flex-col'>
+  {
+    reviewsData.map((item: ReviewType) => {
+      return (
+        <Review
+          author={item.author}
+          charge={item.charge}
+          rate={item.rate}
+          review={item.review}
+        />
+      )
+    })
+  }
 </ul>

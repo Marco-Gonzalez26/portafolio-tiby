@@ -6,12 +6,12 @@ import { timelineData } from '../lib/data'
 
 <a
   href='/experiencia'
-  class='underline text-lg font-semibold cursor-pointer text-gray-300 hover:text-white transition-all flex items-center mb-6'
+  class='underline text-lg font-semibold cursor-pointer text-gray-300 hover:text-white transition-all flex items-center mb-6 print:text-black'
   >Toda mi experiencia laboral
 </a>
 <ol class='border-l border-gray-200 relative h-full min-h-full'>
   {
-    timelineData.slice(0, 3).map((item) => {
+    timelineData.slice(0, 4).map((item) => {
       return (
         <TimelineItem
           time={item.time}

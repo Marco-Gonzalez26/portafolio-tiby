@@ -34,7 +34,7 @@ export const timelineData: TimeLineItem[] = [
     title:
       'Secretaria personal de consultorio médico en el ámbito de Cardiología',
     description:
-      'Se administro de manera eficáz a pacientes de distintos grupos de edad, así como se programaron citas médicas siempre velando por la comodidad del paciente'
+      'Se administro de manera eficaz a pacientes de distintos grupos de edad, así como se programaron citas médicas siempre velando por la comodidad del paciente'
   },
   {
     time: '2005 - 2007',
@@ -63,7 +63,7 @@ export const reviewsData: Review[] = [
     author: 'Edré Narvaéz',
     rate: 5,
     review:
-      'Tibisay Partidas se destacó como una figura integral en la papelería al por mayor. Su versatilidad se reflejaba en su papel crucial como asistente presidencial, donde demuestró habilidades administrativas excepcionales. Además, su destreza en ventas, tanto al por mayor como al detalle, resalta su capacidad para adaptarse a diversas funciones. Tibisay también se encargó de la administración del depósito e inventario, mostrando un compromiso sólido con la eficiencia operativa. Su destreza en la facturación, la preparación de pedidos y la atención al cliente, combinada con un manejo experto de Excel, la convierten en un activo indispensable para el éxito del negocio.',
+      'Tibisay Partidas se destacó como una figura integral en la papelería al por mayor. Su versatilidad se reflejaba en su papel crucial como asistente presidencial, donde demostró habilidades administrativas excepcionales. Además, su destreza en ventas, tanto al por mayor como al detalle, resalta su capacidad para adaptarse a diversas funciones. Tibisay también se encargó de la administración del depósito e inventario, mostrando un compromiso sólido con la eficiencia operativa. Su destreza en la facturación, la preparación de pedidos y la atención al cliente, combinada con un manejo experto de Excel, la convierten en un activo indispensable para el éxito del negocio.',
     charge: 'Presidente de RDL'
   },
   {

@@ -10,12 +10,14 @@ const { time, title, description, actual, company } = Astro.props
 ---
 
 <li
-  class='ml-4 hover:bg-white/5 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] transition-all duration-200 rounded p-4'>
+  class='ml-4 hover:bg-white/5 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] transition-all duration-200 rounded p-4 print:text-black'>
   <div
-    class='absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white'>
+    class='absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white print:text-black print:bg-indigo-600 print:border-indigo-400'>
   </div>
   <div class='flex items-center gap-x-2'>
-    <time class='mb-1 text-sm leading-none text-gray-100 font-bold'>{time}</time
+    <time
+      class='mb-1 text-sm leading-none text-gray-100 font-bold print:text-black'
+      >{time}</time
     >
     {
       actual ? (
@@ -31,13 +33,16 @@ const { time, title, description, actual, company } = Astro.props
       ) : null
     }
   </div>
-  <h4 class='text-lg font-semibold text-white'>{title}</h4>
+  <h4 class='text-lg font-semibold text-white print:text-black'>{title}</h4>
   {
     company ? (
-      <h5 class='text-lg font-semibold text-white'>
-        Lugar: <span class='text-md text-gray-300'>{company}</span>
+      <h5 class='text-lg font-semibold text-white print:text-black'>
+        Lugar:{' '}
+        <span class='text-md text-gray-300 print:text-black'>{company}</span>
       </h5>
     ) : null
   }
-  <p class='mb-4 text-base font-normal text-gray-300'>{description}.</p>
+  <p class='mb-4 text-base font-normal text-gray-300 print:text-black'>
+    {description}.
+  </p>
 </li>

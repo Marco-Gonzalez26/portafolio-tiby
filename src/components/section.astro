@@ -12,10 +12,10 @@ const { id, title, classNames } = Astro.props
   id={id}
   class={cn(
     classNames,
-    'w-full relative mb-4 md:mb-6  scroll-mt-12 min-h-full'
+    'w-full relative mb-4 md:mb-6  scroll-mt-12 min-h-full print:text-black'
   )}>
   <h2
-    class='text-lg font-extrabold uppercase tracking-widest text-gray-50 lg:sr-only mb-4 md:hidden'>
+    class='text-lg font-extrabold uppercase tracking-widest text-gray-50 lg:sr-only mb-4 md:hidden print:text-black'>
     {title}
   </h2>
   <slot />

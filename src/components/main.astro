@@ -10,16 +10,21 @@ import Timeline from './timeline.astro'
     id='sobre-mi'
     title='sobre mi'>
     <>
-      <p class='text-gray-300 font-base text-lg leading-base mb-8'>
-        Me gradué en 1992 de <span class='text-white font-bold'>
+      <p
+        class='text-gray-300 font-base text-lg leading-base mb-8 print:text-black'>
+        Me gradué en 1992 de <span
+          class='text-white font-bold print:text-black'>
           TSU en Infomática mención administración de empresas</span
-        >, cuento con más de <span class='text-white font-bold'>15 años</span> de
-        experiencia administrando satisfactoria y eficazmente <span
-          class='text-white font-bold'>diferentes empresas</span
+        >, cuento con más de <span class='text-white font-bold print:text-black'
+          >15 años</span
+        > de experiencia administrando satisfactoria y eficazmente <span
+          class='text-white font-bold print:text-black'
+          >diferentes empresas</span
         > y
-        <span class='text-white font-bold'> puestos.</span>
+        <span class='text-white font-bold print:text-black'> puestos.</span>
       </p>
-      <p class='text-gray-300 font-base text-lg leading-base mb-8'>
+      <p
+        class='text-gray-300 font-base text-lg leading-base mb-8 print:text-black'>
         Desde hace 5 años he desempeñado los roles de asistente Médico con las
         responsabilidades de <span class='text-white font-bold'>agendar</span> y
         <span class='text-white font-bold'>dar atención</span> a los diferentes pacientes,
@@ -27,7 +32,7 @@ import Timeline from './timeline.astro'
       </p>
     </>
   </Section>
-  <Section id='reseñas' title='reseñas'>
+  <Section id='reseñas' title='reseñas' classNames='print:hidden'>
     <ReviewsList />
   </Section>
   <Section id='experiencia' title='Experiencia'>

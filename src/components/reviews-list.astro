@@ -3,7 +3,7 @@ import { reviewsData, type Review as ReviewType } from '../lib/data'
 import Review from './review.astro'
 ---
 
-<ul class='relative flex gap-y-2 flex-col print:hidden'>
+<ul class='relative flex gap-y-4 flex-col print:hidden'>
   {
     reviewsData.map((item: ReviewType) => {
       return (

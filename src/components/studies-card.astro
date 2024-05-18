@@ -1,0 +1,42 @@
+---
+type Props = {
+  time: string
+  title: string
+  company?: string
+  abilities: string[]
+}
+const { time, title, company, abilities } = Astro.props
+---
+
+<li
+  class='hover:bg-white/5 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] transition-all duration-200 rounded p-4 print:text-black list-none'>
+  <div class='flex items-center gap-x-2'>
+    <h4 class='text-lg font-semibold text-white print:text-black'>{title}</h4>
+    <time
+      class='mb-1 text-sm leading-none text-gray-100 font-bold print:text-black'>
+      <span
+        class='mb-1 text-xs md:text-sm leading-none text-gray-100 rounded-full bg-violet-800 px-2 py-1 font-semibold'>
+        {time}
+      </span></time
+    >
+  </div>
+  {
+    company ? (
+      <h5 class='text-lg font-semibold text-white print:text-black'>
+        Lugar:{' '}
+        <span class='text-md text-gray-300 print:text-black'>{company}</span>
+      </h5>
+    ) : null
+  }
+  <ol class='mt-2'>
+    {
+      abilities.map((ability) => {
+        return (
+          <li class='list-disc ml-10 mb-1  leading-none text-gray-100 print:text-black'>
+            {ability}
+          </li>
+        )
+      })
+    }
+  </ol>
+</li>

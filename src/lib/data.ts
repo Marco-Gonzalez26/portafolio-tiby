@@ -74,3 +74,28 @@ export const reviewsData: Review[] = [
     charge: 'Médico Cardiólogo'
   }
 ]
+
+export const studies = [
+  {
+    time: '2020',
+    company: 'Centro Educativo Logros',
+    title: 'Asistente de Farmacia Online',
+    abilities: [
+      'Trabajo en equipo',
+      'Excelente atención al cliente',
+      'Adquicisión de conocimiento actualizado de normas y precedimientos para la venta de medicamentos',
+      'Adquicisión de conocimientos sobre inventario de productos y guía de especialidades farmacologicas'
+    ]
+  },
+  {
+    time: '2021',
+    company: 'Centro Educativo Logros',
+    title: 'Asistente de Farmacia Computarizado',
+    abilities: [
+      'Conocimiento del perfil profesional del Asistente de Farmacia',
+      'Aplicación de las funciones pricipales del Asistente de Farmacia',
+      'Manejo de estrategias de la buena atención al cliente',
+      'Operación del sistema computarizado del área de farmacia'
+    ]
+  }
+]

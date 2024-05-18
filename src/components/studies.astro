@@ -1,0 +1,12 @@
+---
+import { studies } from '../lib/data'
+import StudiesCard from './studies-card.astro'
+---
+
+<ul>
+  {
+    studies.map((study) => {
+      return <StudiesCard {...study} />
+    })
+  }
+</ul>

@@ -1,5 +1,5 @@
 ---
-import { ViewTransitions } from 'astro:transitions'
+import { ViewTransitions, slide } from 'astro:transitions'
 import MouseFollow from '../components/mouse-follow.tsx'
 interface Props {
   title: string
@@ -17,9 +17,9 @@ const { title } = Astro.props
       content='Contrata a Tibisay Partidas para que te asista en tu negocio, consultorio médico o administre tu tienda. Especialista en Google Docs, Google Calendar, Word, Excel, PowerPoint, entre otros'
     />
     <meta name='viewport' content='width=device-width' />
-    <link rel='icon' type='image/icon' href='/favicon.ico' />
+    <link rel='icon' type='image/svg' href='/favicon.svg' />
     <meta name='generator' content={Astro.generator} />
-    <ViewTransitions />
+    <ViewTransitions transition:animate={slide({ duration: 0.3 })} />
     <title>{title}</title>
   </head>
   <body
